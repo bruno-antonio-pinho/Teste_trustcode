@@ -22,10 +22,8 @@ def desafio_1(lista, numero):
 # Atualização dos parametros de busca para a proxima iteração.
             if(numero > lista[centro]):
                 inicio = centro + 1
-                #print inicio
             else:
                 fim = centro
-                #print fim
 
         centro = (fim + inicio) / 2
 
